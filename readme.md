@@ -1,25 +1,37 @@
-# Gutenberg block template
+# Forma Bloques Gutenberg
 
-This template is configured to use:
+Este repositorio contiene una serie de bloques Gutenberg de WordPress, diseñados específicamente para su uso en proyectos del equipo de desarrollo y operaciones de Forma. Los bloques se han creado con el objetivo de mejorar la experiencia de edición y el diseño de las páginas en WordPress.
 
--   Eslint and prettier as a linter and formatter
--   Stylelint to format styles.
--   Configuration based on ".scss" files
--   Wordpress stubs to work inside the folder and avoid using the entire Wordpress folder
 
-In case of using VSCode, you can edit .vscode/settings.json to modify editor behaviors and change style settings to use ".css" or another extension
+## Configuraciones
 
-## How use?
+Las herramientas y configuraciones que se utilizan en este repositorio tienen la finalidad de **mantener la calidad y consistencia del código y estilo** para hacer más eficiente el proceso de desarrollo.
 
-You need to run the following commands to use this template correctly:
+-   Eslint como linter y Prettier como formateador
+-   Stylelint como formateador de estilos
+-   Configuración out-the-box con Sacss
+-   Stub de Wordpress para trabajar dentro de la carpeta y evitar usar toda la carpeta de Wordpress
 
+## ¿Como utilizar?
+
+Para poder utilizar y desarrollar con este proyecto debe correr los siguientes comandos:
+
+
+Para instalar las dependencias de NPM
 ```
-// Install NPM dependecies
 npm install
+```
 
-// Install Composer dependecies (this is the stub)
+ Para instalar las dependencias de Composer (el stub)
+```
 composer install
+```
 
-// Run the build for generate the folder
+Para generar la carpeta de compilación
+```
 npm build
 ```
+
+Recuerda que debes estar ubicado en la raíz del proyecto para ejecutar estos comandos.
+
+*The code is poetry, happy hacking*
