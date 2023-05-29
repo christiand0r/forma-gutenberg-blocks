@@ -6,8 +6,6 @@ import { registerBlockType } from '@wordpress/blocks';
 import Edit from './edit';
 import save from './save';
 
-import './style.scss';
-
 registerBlockType( 'blocksforma/formatabs', {
 	title: __( 'Forma Tabs', 'blocksforma' ),
 	category: 'media',
