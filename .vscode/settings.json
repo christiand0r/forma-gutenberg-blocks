@@ -7,5 +7,10 @@
 		"editor.codeActionsOnSave": {
 			"source.fixAll.stylelint": false
 		}
-	}
+	},
+
+	// Icon Cofiguration (Use Material Icons)
+	"material-icon-theme.folders.associations": {
+    "blocks": "components"
+  },
 }
