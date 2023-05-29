@@ -6,11 +6,7 @@ import { registerBlockType } from '@wordpress/blocks';
 import Edit from './edit';
 import save from './save';
 
-import './style.scss';
-
 registerBlockType( 'blocksforma/nombre-del-bloque', {
-	apiVersion: 2,
-	version: '0.1.0',
 	title: __( 'Nombre en pantalla', 'blocksforma' ),
 	category: 'Categoría en la que se agrupará',
 	icon: 'Icono en pantalla',

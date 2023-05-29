@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "blocksforma/core",
+	"version": "0.1.0",
+	"title": "Forma Core",
+	"parent": [],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "blocksforma",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

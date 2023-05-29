@@ -9,10 +9,8 @@ import save from './save';
 import './style.scss';
 
 registerBlockType( 'blocksforma/formatabs', {
-	apiVersion: 2,
-	version: '0.1.0',
 	title: __( 'Forma Tabs', 'blocksforma' ),
-	category: 'layout',
+	category: 'media',
 	icon: 'table-row-after',
 	keywords: [ 'tabs', 'forma', 'layout' ],
 	description: __( 'Agrupe en pestañas diversos elementos' ),
@@ -20,9 +18,6 @@ registerBlockType( 'blocksforma/formatabs', {
 		html: false,
 	},
 	textdomain: 'blocksforma',
-	editorScript: 'file:./index.js',
-	editorStyle: 'file:./index.css',
-	style: 'file:./style-index.css',
 	edit: Edit,
 	save,
 } );
